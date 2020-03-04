@@ -1,0 +1,151 @@
+@media only screen and (min-width: 800px) {
+  /* For desktop: */
+  /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+    
+    body{
+        max-width: 900px;
+        margin: auto;
+        padding: 10px;
+    }
+    
+
+
+    nav ul li a {
+        display: block;
+        text-align: center;
+        padding: 15px 20px;
+        color: white;
+        text-decoration: none;
+        margin: auto;
+    }
+    
+    nav {    
+        font-size: 18px;
+    }
+    /* CSS for Login*/
+
+    /* Bordered form */
+    form {
+
+    }
+
+    /* Full-width inputs */
+    input[type=text], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+    /* Set a style for all buttons */
+    button {
+    
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    /* Add a hover effect for buttons */
+    button:hover {
+        opacity: 0.8;
+    }
+
+    /* Extra style for the cancel button (red) */
+    .cancelbtn {
+        width: auto;
+        padding: 10px 18px;
+        background-color: #f44336;
+    }
+
+    /* Center the avatar image inside this container */
+    .imgcontainer {
+        text-align: center;
+        margin: 24px 0 12px 0;
+    }
+
+    /* Avatar image */
+    img.avatar {
+        width: 40%;
+        border-radius: 50%;
+    }
+
+    /* Add padding to containers */
+    .loginContainer {
+        padding: 16px;
+    }
+
+    /* The "Forgot password" text */
+    span.psw {
+        float: right;
+    }
+    
+    .levelImage img{
+        display: none;
+    }
+    
+    .accordion-section{
+        float: left;
+        width: 33.33%;
+        padding: 10px;        
+    }
+    
+    .accordion-section img {
+    width: 150px;
+    }
+
+section p{
+    padding-left: 40px; 
+     padding-right: 40px; 
+}
+
+    form {
+
+    max-width: 700px;
+    
+}
+    #regForm{
+        padding-left: 70px;
+        padding-left: 70px;
+        overflow: hidden;
+    } 
+    
+    .loginContainer{
+        max-width: 700px;
+        margin: auto;
+        padding: 10px;
+    }
+    
+        .registrationPage{
+        padding: 16px;
+        max-width: 700px;
+        margin: auto;
+
+}
+    
+    .aboutUs li {
+    text-align: left;
+    font-size: 16px;
+}
+    
+    .contactUsForm {
+        padding-left: 30px;
+        padding-right: 30px;
+        max-width: 700px;
+        margin: auto;
+}
+    
+    .cancelPage input[type="button"]{
+    display: block;
+    margin-left: 250px;
+    margin-right: auto;
+
+}
+    
+}
+
+
